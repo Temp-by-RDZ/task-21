@@ -1,7 +1,7 @@
 package TRDZ.tasks;
 
-public class Initialization
-	{
+public class Initialization {
+
 	public static void main(String[] args) {
 		My_Hash<Product, Integer> hashTable = new My_Hash<>(5);
 	//region Проверка добавления
@@ -38,7 +38,6 @@ public class Initialization
 		System.out.println("Занято ячеек - " + hashTable.size());
 		hashTable.display();
 	//endregion
-
 		}
 
 	}
